@@ -1,8 +1,5 @@
-// lib/main.dart
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'Bloc/calculator_bloc.dart';
-import 'screen/calculator_screen.dart';
+import 'package:my_flutter_task2/screen/App_SplashScreen.dart';
 import 'theme/app_theme.dart';
 
 void main() {
@@ -18,10 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'Calculator',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.darkTheme,
-      home: BlocProvider( 
-        create: (context) => CalculatorBloc(),
-        child: const CalculatorScreen(), 
-      ),
+      home: SplashScreen(),
     );
   }
 }
