@@ -247,3 +247,6 @@ class DecimalPressed extends CalculatorEvent {}
 class DeletePressed extends CalculatorEvent {}
 ```
 
+## 👨‍💻 Developer
+
+Ahmed T. Abdelwahed
